@@ -1,8 +1,8 @@
-$bg-color: red;
-body {
-    background-color: $bg-color;
-}
-
-h1 {
-    font-size: 40px;
-}
+//abstracts
+@import "abstracts/variables";
+//vendor
+@import "vendor/bootstrap4.6/bootstrap.scss";
+//base
+@import "base/reset";
+//layout
+@import "layout/header";
