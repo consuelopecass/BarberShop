@@ -9988,7 +9988,7 @@ State
 }
 .paginacion {
   background-color: #E6E7E7;
-  padding: 60px 0;
+  padding: 55px 0;
 }
 .paginacion__link {
   color: #222323;
@@ -10214,6 +10214,20 @@ State
   }
   .sectionDatos__parrafo {
     display: none;
+  }
+}
+.footer {
+  padding: 70px 0;
+  background-color: #121619;
+}
+.footer__imagen {
+  width: 90px;
+  height: 40px;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding: 100px 0;
   }
 }
 body {
