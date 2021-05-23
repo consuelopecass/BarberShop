@@ -9949,6 +9949,12 @@ Orden fuentes
 /*
 Tamaño fuentes
 */
+/*
+Color scheme
+*/
+/*
+State
+*/
 .botonesMain {
   padding: 40px 4%;
 }
@@ -10086,21 +10092,73 @@ Tamaño fuentes
     display: none;
   }
 }
-.sectionDatos2 {
-  color: red;
+.sectionDatos__imagen {
+  padding-left: 70px;
 }
-.sectionDatos2__imagen2 {
-  display: inline-block;
+.sectionDatos__foto {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  margin: 0 auto;
 }
-.sectionDatos2__redes2 {
-  display: inline-block;
-  width: 45%;
+.sectionDatos__redes {
+  padding: 20px 0;
 }
-.sectionDatos2__parrafo2 {
-  display: inline-block;
-  width: 45%;
+.sectionDatos__nombre {
+  color: #121619;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: italic 900;
+  font-style: italic;
+}
+.sectionDatos__instagram {
+  color: #ECBCBA;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.sectionDatos__paginaWeb {
+  color: #ECBCBA;
+  font-size: 18px;
+  font-weight: 300;
+}
+.sectionDatos__articulo {
+  padding: 0;
+}
+.sectionDatos__parrafo {
+  font-weight: 300;
+  line-height: 2.5;
 }
 
+@media (max-width: 576px) {
+  .sectionDatos__imagen {
+    padding-left: 25%;
+  }
+  .sectionDatos__foto {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .sectionDatos__redes {
+    padding: 0 25%;
+  }
+  .sectionDatos__nombre {
+    padding: 20px 0 10px 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .sectionDatos__instagram {
+    text-align: center;
+  }
+  .sectionDatos__paginaWeb {
+    text-align: center;
+  }
+  .sectionDatos__parrafo {
+    display: none;
+  }
+}
 body {
   font-family: "Roboto", sans-serif;
 }

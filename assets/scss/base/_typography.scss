@@ -18,3 +18,20 @@ $medium-font: 16px;
 $large-font: 18px;
 $x-large-font: 30px;
 $xx-large-font: 70px;
+
+/*
+Color scheme
+*/
+
+$primary-scheme: $spanish-pink;
+$secondary-scheme: $raisin-black;
+$light-scheme: $light-gray;
+$dark-scheme: $eerie-black;
+
+/*
+State
+*/
+
+$normal-state: $primary-scheme;
+$hover-state: $secondary-scheme;
+$active-state: $light-scheme;
