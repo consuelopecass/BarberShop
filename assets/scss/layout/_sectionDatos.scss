@@ -24,10 +24,22 @@
         font-weight: $primary-font-light;
         margin-bottom: 0;
     }
+    &__instagram:hover {
+        color: $hover-state;
+    }
+    &__instagram:active {
+        color: $active-state;
+    }
     &__paginaWeb {
         color: $primary-scheme;
         font-size: $large-font;
         font-weight: $primary-font-light;
+    }
+    &__paginaWeb:hover {
+        color: $hover-state;
+    }
+    &__paginaWeb:active {
+        color: $active-state;
     }
     &__articulo {
         padding: 0;

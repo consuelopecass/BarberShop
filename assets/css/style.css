@@ -10161,10 +10161,22 @@ State
   font-weight: 300;
   margin-bottom: 0;
 }
+.sectionDatos__instagram:hover {
+  color: #6C6E70;
+}
+.sectionDatos__instagram:active {
+  color: #D1D1D1;
+}
 .sectionDatos__paginaWeb {
   color: #ECBCBA;
   font-size: 18px;
   font-weight: 300;
+}
+.sectionDatos__paginaWeb:hover {
+  color: #6C6E70;
+}
+.sectionDatos__paginaWeb:active {
+  color: #D1D1D1;
 }
 .sectionDatos__articulo {
   padding: 0;
