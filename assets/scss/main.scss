@@ -1,19 +1,19 @@
-//1abstracts
+//abstracts
 @import "abstracts/variables";
-//2vendor
+//vendor
 @import "vendor/bootstrap4.6/bootstrap.scss";
-//3base
+//base
 @import "base/reset";
 @import "base/typography";
-//4components
+//components
 @import "components/buttons";
-@import "components/sectionPaginacion";
-//5layout
+@import "components/pagination";
+//layout
 @import "layout/navbar";
 @import "layout/header";
 @import "layout/main";
 @import "layout/sectionDatos";
 @import "layout/footer";
-//6-pages
+//pages
 @import "pages/index";
-//7-themes
+//themes
