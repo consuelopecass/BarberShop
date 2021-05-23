@@ -1,0 +1,5 @@
+------Repositorio GitHub------
+https://github.com/consuelopecass/BarberShop
+
+------GitHub Pages------
+https://consuelopecass.github.io/BarberShop/
