@@ -1,0 +1,14 @@
+.sectionDatos2 {
+    color: red;
+    &__imagen2 {
+        display: inline-block
+    }
+    &__redes2 {
+        display: inline-block;
+        width: 45%;
+    }
+    &__parrafo2 {
+        display: inline-block;
+        width: 45%;
+    }
+}
