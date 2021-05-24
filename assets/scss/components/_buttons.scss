@@ -25,7 +25,10 @@
 
 @media (max-width: 576px) {
     .botonesMain {
-        margin-left: 35px;
+        margin: 0!important;
         padding: 0;
+    }
+    &__compartir {
+        box-sizing: 0!important;
     }
 }
