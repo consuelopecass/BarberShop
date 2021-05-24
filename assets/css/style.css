@@ -9990,8 +9990,12 @@ State
 
 @media (max-width: 576px) {
   .botonesMain {
-    margin-left: 35px;
+    margin: 0 !important;
     padding: 0;
+  }
+
+  .botonesMain__compartir {
+    box-sizing: 0 !important;
   }
 }
 .paginacion {
@@ -10065,7 +10069,7 @@ State
   }
 }
 .header {
-  background: url(/assets/img/post-image.jpg);
+  background: url(../assets/img/post-image.jpg);
   height: 100vh;
   width: 100%;
   margin: 0 auto;
